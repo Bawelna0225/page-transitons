@@ -62,12 +62,22 @@
   font-size: 2.4rem;
 }
 
+.transition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transition span {
+  color: #999;
+  font-size: 10rem;
+}
+
 .transition-1 {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: 100;
   background-color: #333;
   opacity: 0;
